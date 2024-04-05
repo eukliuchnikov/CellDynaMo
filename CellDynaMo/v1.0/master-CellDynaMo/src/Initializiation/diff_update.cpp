@@ -1,5 +1,5 @@
 /*
- *implicit diffusion initiation module
+ *implicit diffusion initialization module
  *
  *  Created on: Mar 15, 2018
  *	Edited on:	Mar 30, 2019
