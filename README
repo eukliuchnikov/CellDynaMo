@@ -4,6 +4,7 @@
 4) change parameters in config files if necessary;
 5) run ./cell to start the simulation
 ***************************************************************************
+***************************************************************************
 v1.*** - MTs are presented as 3 beads connected by harmonic spring, chromosomes are also presented as beads connected by harmonic spring. 
          Model includes:
             1) two centrosomes that are fixed and can't move;
@@ -11,5 +12,7 @@ v1.*** - MTs are presented as 3 beads connected by harmonic spring, chromosomes 
             3) non-limited amount of chromosomes that could be presented as naked kinetochores without arms, naked kinetochores with a spherical "armor", chromosomes with chromosome arms.
                chromosomes could be placed manually (in conf.conf file), randomly in a chromosome territory, or randomly in the equatorial plate (forming a ring)
             4) ndc-80 complexes (implicit) that could be (de)phosphorylated by phosphatase and Aurora A and Aurora B, and attach/detach from MTs generating pulling force;
+
+     More information in the manual
 ***************************************************************************
 v2.0.* - conceptually the same as v1, but MTs and chromosomes are presented as bendable cylinders. 
