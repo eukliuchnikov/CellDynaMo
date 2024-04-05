@@ -1,0 +1,15 @@
+1) In Makefile change the path to CUDA if necessary, and add -arch option if necessary;
+2) run in terminal: make
+3) create a folder for a trajectory: include congig folder, and create folder output; in output create two folders: dat and dcd;
+4) change parameters in config files if necessary;
+5) run ./cell to start the simulation
+***************************************************************************
+v1.*** - MTs are presented as 3 beads connected by harmonic spring, chromosomes are also presented as beads connected by harmonic spring. 
+         Model includes:
+            1) two centrosomes that are fixed and can't move;
+            2) bendable MTs that undergo growth and shortening
+            3) non-limited amount of chromosomes that could be presented as naked kinetochores without arms, naked kinetochores with a spherical "armor", chromosomes with chromosome arms.
+               chromosomes could be placed manually (in conf.conf file), randomly in a chromosome territory, or randomly in the equatorial plate (forming a ring)
+            4) ndc-80 complexes (implicit) that could be (de)phosphorylated by phosphatase and Aurora A and Aurora B, and attach/detach from MTs generating pulling force;
+***************************************************************************
+v2.0.* - conceptually the same as v1, but MTs and chromosomes are presented as bendable cylinders. 
