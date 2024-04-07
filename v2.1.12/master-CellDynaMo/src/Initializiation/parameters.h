@@ -59,7 +59,7 @@
 #define RATIO                       config.ratio
 //#define NO_ATT_ZONE                 config.kin_radius - config.kin_radius/(1 - config.beta) + sqrtf(config.kin_radius/(1 - config.beta)*config.kin_radius/(1 - config.beta) - config.kin_radius*config.kin_radius)
 #define NO_ATT_ZONE                 config.kin_radius - 200*(1 - config.beta)
-#define KIN_COUNT                   10
+#define KIN_COUNT                   2
 #define CHROM_ARMS                  config.chrom_arms
 #define CONTOUR_LENGTH              config.contour_length
 #define DISTANCE_NDC                config.distance_ndc
