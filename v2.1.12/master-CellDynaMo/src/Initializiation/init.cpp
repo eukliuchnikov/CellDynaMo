@@ -141,7 +141,7 @@ void MechanicalINIT(){
 			} 
 		}
 	}
-	KT_rotationRAND(kt, config);
+	KT_rotation(kt, config);
 
 	initPSF(kt);
 
