@@ -16,3 +16,5 @@ v1.*** - MTs are presented as 3 beads connected by harmonic spring, chromosomes 
      More information in the manual
 ***************************************************************************
 v2.0.* - conceptually the same as v1, but MTs and chromosomes are presented as bendable cylinders. 
+***************************************************************************
+v2.1.* - chromokinesin (the motor that connects chromosome arms and MTs) is added.
